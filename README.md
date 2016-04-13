@@ -2,6 +2,9 @@
 
 Node & Browser Test runner based on [Tape](http://github.com/substack/tape) and [Browserify](http://github.com/substack/node-browserify).
 
+[![NPM][npm-badge-img]][npm-badge-link]
+[![Build Status][travis-badge]][travis-badge-url]
+
 Screencasts: [node.gif](https://dl.dropboxusercontent.com/s/8yyepixc0bbtby3/prova-node.gif), [browser.gif](https://dl.dropboxusercontent.com/s/wtzt78riv7vcp7n/prova.gif), [both.gif](https://i.cloudup.com/4jGix1WEDH.gif), [headless browser](https://i.cloudup.com/lWWplVaKta.png)
 
 Slides: [slides.com/azer/prova](http://slides.com/azer/prova)
@@ -284,3 +287,8 @@ Assuming that you'll be running your tests on `:7559`, any requests to `/my-api`
           $ node test -b -l chrome -e
           $ prova test -b -l chrome -e
 ```
+
+[npm-badge-img]: https://badge.fury.io/js/prova.svg
+[npm-badge-link]: http://badge.fury.io/js/prova
+[travis-badge]: https://travis-ci.org/knownasilya/prova.svg
+[travis-badge-url]: https://travis-ci.org/knownasilya/prova
